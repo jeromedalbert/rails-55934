@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
+gem "rails", "~> 8.1.0.rc1"
 # Use local checkout of Rails
-gem "rails", path: "/Users/jerome/c/rails"
+# gem "rails", path: "/Users/jerome/c/rails"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
 # Use sqlite3 as the database for Active Record
